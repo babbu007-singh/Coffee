@@ -1,0 +1,75 @@
+*{
+  margin:0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{height: 100%;
+width: 100%;
+
+
+}
+
+#HEAD{
+  
+  background-color: black;
+  color: #d3d3d3;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+#nav{
+  
+  display: flex;
+  height: 25px;
+  border: 2px solid gainsboro;
+  
+justify-content: space-around;
+background-color: #d3d3d3;
+}
+#main{
+  position: relative;
+  height: 100%;
+ display: flex;
+}
+#side{
+  
+  height: 730px;
+  width: 10%;
+  background-color: #d3d3d3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#content{
+  padding: 20px;
+ justify-content: space-between;
+
+width: 90%;
+}
+h2{
+  font-family:"Acme", serif;
+  
+  text-align: center;
+ 
+}
+img{ 
+  
+  border-radius: 30%;
+}
+#content2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 40px;
+
+}
+h3{
+  font-weight: 900;
+}
+#foot{ padding-top: 5px;
+  text-align: center;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height:40px;
+  color:#d3d3d3;;
+  background-color: black;
+}
+
+
